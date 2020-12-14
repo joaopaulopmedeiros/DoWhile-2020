@@ -11,7 +11,7 @@ async function bootstrap() {
 
   const server = new ApolloServer({ schema });
 
-  server.listen({ port: 4100 }, () => console.log("running"));
+  server.listen({ port: 4100 }, () => console.log("app running"));
 }
 
 bootstrap();
